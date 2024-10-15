@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: SpringBoot
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/springbootprojectDemo
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
